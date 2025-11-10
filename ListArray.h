@@ -1,3 +1,5 @@
+#ifndef LISTARRAY_H
+#define LISTARRAY_H
 #include <ostream>
 #include <stdexcept>
 #include "List.h"
@@ -98,3 +100,5 @@ public:
 		return out;
 	}
 };
+
+#endif

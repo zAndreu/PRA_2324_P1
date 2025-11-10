@@ -1,3 +1,6 @@
+#ifndef NODE_H
+#define NODE_H
+
 #include <ostream>
 #include "List.h"
 
@@ -17,3 +20,5 @@ class Node
                 return out;
             }
 };
+
+#endif

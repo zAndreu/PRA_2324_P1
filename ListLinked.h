@@ -1,3 +1,6 @@
+#ifndef LISTLINKED_H
+#define LISTLINKED_H
+
 #include <ostream>
 #include "List.h"
 #include "Node.h"
@@ -41,3 +44,5 @@ public:
         return out;
     }
 };
+
+#endif
