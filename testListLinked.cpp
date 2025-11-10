@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ListArray.h"
+#include "ListLinked.h"
 
 using namespace std;
 
@@ -7,7 +7,7 @@ int main()
 {
     cout << boolalpha; // configuramos cout para mostrar true/false en lugar de 0/1.
 
-    ListArray<int> list;
+    ListLinked<int> list;
 
     cout << list << endl;
     cout << "size(): " << list.size() << endl;
